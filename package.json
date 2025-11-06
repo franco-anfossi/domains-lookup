@@ -1,5 +1,9 @@
 {
   "type": "module",
+  "scripts": {
+    "start:lookup": "node lookup.js",
+    "start:nameslookup": "node namesLookup.js"
+  },
   "dependencies": {
     "dotenv": "^17.2.3"
   }
