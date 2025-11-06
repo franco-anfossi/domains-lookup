@@ -58,7 +58,7 @@ async function checkDomainsBatch(domains) {
       Authorization: `sso-key ${GODADDY_API_KEY}:${GODADDY_API_SECRET}`,
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({ domains }),
+    body: JSON.stringify(domains),
   });
 
   if (!response.ok) {
